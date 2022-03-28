@@ -5,7 +5,12 @@ https://user-images.githubusercontent.com/76963353/160448382-adcc6c66-6520-41d1-
 
 ## E-Ticaret Sistemi
 
-
+!! Projeyi indirdiğiniz zaman .env file oluşturup aşağıdaki gibi bilgileri eklediğiniz zaman client ve server folderlarında `npm install`diyerek uyguamayı kullanıma hazır hale getirebilirsiniz.
+```
+PORT= Port numarası
+ACCESS_TOKEN= "gizli_bilgiler"
+DATABASE_URL="postgresql://postgres:<password>@localhost:5432/databaseName?schema=public"
+```
 
 ## Backend 
 
